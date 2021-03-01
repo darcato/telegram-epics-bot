@@ -1,0 +1,16 @@
+{
+    "bot_token": "...",
+    "bot_name": "Control System Bot!",
+    "antibounce": 10,
+    "users": {
+        "user1": 123456789,
+        "user2": 987654321,
+        "group1": -123978456
+    },
+    "subscriptions": {
+        "example": [
+            "user1",
+            "group1"
+        ]
+    }
+}

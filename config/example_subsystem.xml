@@ -1,0 +1,8 @@
+<component name="Subsystem Name">
+    <pv name="pv1_name">
+        <description>PV1 description string</description>
+    </pv>
+    <pv name="pv2_name">
+        <description>PV2 description string</description>
+    </pv>
+</component>
