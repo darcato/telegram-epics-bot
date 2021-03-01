@@ -1,0 +1,8 @@
+<component name="Test">
+	<pv name="CS:al1">		
+		<description>*Alarm 1</description>
+	</pv>
+	<pv name="CS:al2">		
+		<description>*Alarm 2</description>
+	</pv>
+</component>

@@ -20,11 +20,6 @@ if __name__ == '__main__':
             'high':  5,
             'low': -5,
             'lolo': -10
-        },
-        'wf': {
-            'type': 'char',
-            'count': 300,
-            'value': 'some initial message. but it can become very long.'
         }
     }
 

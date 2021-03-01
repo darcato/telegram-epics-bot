@@ -1,0 +1,12 @@
+{
+    "bot_token": "...",
+    "antibounce": 10,
+    "users": {
+        "user": 123456789
+    },
+    "subscriptions": {
+        "test": [
+            "user"
+        ]
+    }
+}

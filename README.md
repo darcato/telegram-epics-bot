@@ -4,6 +4,15 @@ A simple Telegram bot to read EPICS control systems PVs and to be notified about
 
 ## Usage
 
+This bot can reply to authenticated users about the status of groups of PVs:
+
+<img src="docs/reply.jpg" alt="See docs/reply.jpg" width="300"/>
+
+and can send a notification when one PV enters or exits the alarm state.
+
+<img src="docs/notify.jpg" alt="See docs/notify.jpg" width="300"/>
+
+
 ## Setup
 
 ### Prerequisites
@@ -69,9 +78,16 @@ The schema of these files is compatible with the EPICS Archiver files, which can
 Now run:
 
 ```bash
-python alarms_bot.py example.json
+python epics_bot.py example.json
 ```
 
 A restart is required to reload the configuration files.
 
 ## Testing
+
+A test PV server is provided in the ``test`` folder, based on [pcaspy](https://pcaspy.readthedocs.io/en/latest/). The ``test.json`` configuration file can be used as a template to run the bot against these dummy PVs, just set the user ID and the bot token. Then run:
+
+```bash
+python test/dummy_pv_server.py &
+python epics_bot.py test/test.json
+```
